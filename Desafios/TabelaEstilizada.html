@@ -7,11 +7,68 @@
     <title>Desafio - Tabela Estilizada</title>
     <link rel="stylesheet" href="/Desafios/CSS/tabelaextilizada.css">
 </head>
+
+<style>
+
+    .enunciado {
+
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        text-align: justify;
+
+        line-height: 21px ;
+
+    }
+
+    .tabelas {
+
+        min-width: 300px;
+        text-align: center;
+        color: azure;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 16px;
+        margin-left: 20px;
+
+    }
+
+.modaCabeçalho th{
+
+    background-color: #BB86FC;
+    padding: 10px;
+
+}
+
+.casaCabeçalho th{
+
+    background-color: #00C4B4;
+    padding: 10px;
+
+}
+
+.corpo {
+
+    background-color: #424250;
+    padding: 10px;
+
+}
+
+.moda, .casa {
+
+    font-weight: bolder;
+    margin-left: 20px;
+
+}
+
+</style>
+
 <body>
     
-    <pre>
-        Tabela Estilizada
+    <h1>Tabela Estilizada</h1>
+
+    <pre class="enunciado">
+                
         Faça uma tabela de roupas com tamanho e valor da peça descrito em cada linha.
+        
         Não esqueça de adicionar um cabeçalho em cada coluna.
         
         Cor de fundo do cabeçalho moda - #BB86FC
@@ -26,14 +83,10 @@
         
     </pre>
 <main>
-    
-    Camiseta
-    M
-    R$ 49,00
-  
+   
 
     <p class="moda">Moda</p>
-    <table id="moda">
+    <table id="moda" class="tabelas">
         <tr class="modaCabeçalho">
             <th>Produto</th>
             <th>Tamanho</th>
@@ -44,15 +97,15 @@
             <td>M</td>
             <td>R$ 49,00</td>
         </tr>
-        <tr>
+        <tr class="corpo">
             <td>Tênis</td>
             <td>42</td>
             <td>R$ 5,00</td>
         </tr>
     </table>
     <p class="casa">Casa</p>
-    <table id="casa">
-        <tr class="casa.cabeçalho">
+    <table id="casa" class="tabelas">
+        <tr class="casaCabeçalho">
             <th>Produto</th>
             <th>Valor</th>
             
@@ -61,7 +114,7 @@
             <td>Sofá</td>
             <td>R$ 1.200,00</td>
         </tr>
-        <tr>
+        <tr class="corpo">
             <td>Televisão</td>
             <td>R$ 5.000,00</td>            
         </tr>
