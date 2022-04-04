@@ -1,0 +1,48 @@
+.alinhado-esquerda {
+
+    text-align: left;
+}
+
+.alinhado-direita {
+
+    text-align: right;
+}
+
+.alinhado-centro {
+
+    text-align: center;
+}
+
+
+.fundo-alinhamento{
+
+    padding: 20px;
+    background-color: #D1C4E9;
+    
+}
+
+.fundo-transform {
+
+    padding: 20px;
+    background-color: #c8e6c9;
+
+}
+
+.fundo-decoration {
+
+    padding: 20px;
+    background-color: #FFF9C4;
+
+}
+
+.fundo {
+
+    padding: 20px;
+    background-color: #CCC;
+
+}
+
+html {
+
+    font-size: 24px;    
+}
