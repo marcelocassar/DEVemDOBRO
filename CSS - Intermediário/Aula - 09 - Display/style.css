@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+    font-size: 24px;
+
+}
+
+ul {
+    margin-bottom:50px;
+
+}
+
+.em-bloco li {
+    background-color: aqua;
+    margin-bottom: 10px;
+    width: 100px;
+
+}
+
+.em-linha li{
+    display: inline;
+    background-color: aqua;
+    /* se colocar display inline não da p colocar largura ou altura. Exemplo de elementos que já são inline - strong e spam*/
+
+}
+
+.em-linha-e-bloco li{
+    display: inline-block;
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    /*usando o display inline-block, eu consigo configurar os tamanhos dos itens, diferente do inline.*/
+}
+
+.esconder {
+
+    display: none;
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+}
+

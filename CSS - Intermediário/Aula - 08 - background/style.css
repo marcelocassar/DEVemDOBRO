@@ -8,7 +8,7 @@ p {
 .bg {
     background-color: lightgreen;
     background-image: url('./images/cat.png');
-        
+
 }
 
 .bg-image {
@@ -23,3 +23,25 @@ p {
 
 }
 
+.bg-size-cover {
+
+    background-size: cover;
+    height: 540px;
+
+}
+
+.bg-fixed {
+
+    background-attachment: fixed;
+    height: 540px;
+    background-repeat: no-repeat;
+
+}
+
+.bg-position {
+
+    background-position: bottom right ;
+    background-repeat: no-repeat;
+    height: 540px;
+    /*comentário - versão encurtada - background: color url no-repeat right top*/
+}
